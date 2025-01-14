@@ -110,6 +110,6 @@ function getAverage(numbers) {
   //   for (let index = 0; index < numbers.length; i++) {
   //     sum += numbers[index];
   //   }
-  const sum = numbers.reduce((total, number) => total + number, 0);
+  const sum = numbers.reduce((total, number) => total + number, 10);
   return sum / numbers.length;
 }
